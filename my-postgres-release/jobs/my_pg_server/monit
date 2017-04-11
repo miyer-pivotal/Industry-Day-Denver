@@ -1,0 +1,5 @@
+check process psql
+  with pidfile /var/vcap/jobs/my_pg_server/data/postmaster.pid
+  start program "/var/vcap/jobs/my_pg_server/bin/start" with timeout 600 seconds
+  stop program "/var/vcap/jobs/my_pg_server/bin/stop"
+  group vcap

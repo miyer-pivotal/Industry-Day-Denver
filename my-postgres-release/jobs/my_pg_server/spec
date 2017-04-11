@@ -1,0 +1,9 @@
+---
+name: my_pg_server
+
+templates:
+  start.erb: bin/start
+  stop.erb: bin/stop
+
+packages:
+- my_pg_pkg

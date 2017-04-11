@@ -1,0 +1,7 @@
+---
+name: my_pg_pkg
+
+dependencies:
+
+files:
+- postgresql-9.3.5.tar.gz
